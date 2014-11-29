@@ -1,0 +1,49 @@
+<footer class="site-footer">
+
+  <div class="wrap">
+
+    <div class="footer-col-1 column">
+      <ul>
+        <li>{{ site.sub-title }}</li>
+        <li><a href="mailto:{{ site.email }}">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-col-2 column">
+    	<ul>
+    		<li>
+    			<a href="https://www.facebook.com/groups/408325669297089/">
+    			<span id="icon"><i class="fa fa-facebook-square"></i></span>
+    			<span>Facebook</span>
+    			</a>
+    		</li>
+    		<li>
+    			<a href="https://mailman.ucsd.edu/mailman/listinfo/pro-l">
+    			<span id="icon"><i class="fa fa-send"></i></span>
+    			<span>Mailing List</span>
+    			</a>
+    		</li>
+    	</ul>
+    </div>
+
+    <div class="footer-col-3 column">
+      <p class="text">{{ site.description }}</p>
+    </div>
+
+  </div>
+
+</footer>
+
+<script>
+	$(document).ready(function() {
+		var owl = $("#carousel");
+	
+		owl.owlCarousel({
+			navigation: false,
+			singleItem: true,
+			autoPlay: 4000,
+			stopOnHover: true,
+			transitionStyle: "fadeUp"
+		});
+	});
+</script>

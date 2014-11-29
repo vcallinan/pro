@@ -1,0 +1,13 @@
+# Site settings
+title: PRO @ UCSD
+sub-title: Producers and Remixers Organization @ UCSD
+email: srimola@ucsd.edu
+description: "The official website for the Producers and Remixers Organization at the University of California, San Diego. Created and maintained by Stefan Rimola."
+baseurl: ""
+url: "http://producerclub.ucsd.edu"
+twitter_username: normxl
+github_username:  srimola
+
+# Build settings
+markdown: kramdown
+permalink: pretty
